@@ -1,1 +1,1 @@
-# JBforever-RegisterOnOpenchart_Assignment
+Registration on Opencart by using Automation Process. 
