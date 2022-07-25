@@ -36,14 +36,14 @@ class Launch_chrome():
 
         password = driver.find_element(By.NAME, 'password')
         password.send_keys("bristi21")
-        time.sleep(2)
+        
 
         html = driver.find_element(By.XPATH, '/html')
         html.send_keys(Keys.END)
 
         SubscribeBtn = driver.find_element(By.CSS_SELECTOR, '#input-newsletter-yes')
         SubscribeBtn.click()
-        time.sleep(2)
+        
 
         html = driver.find_element(By.XPATH, '/html')
         html.send_keys(Keys.END)
